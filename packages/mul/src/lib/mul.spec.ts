@@ -1,0 +1,7 @@
+import { mul } from './mul';
+
+describe('mul', () => {
+  it('should work', () => {
+    expect(mul(6, 8)).toEqual(48);
+  });
+});

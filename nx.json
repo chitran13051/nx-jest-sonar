@@ -27,5 +27,8 @@
   "workspaceLayout": {
     "appsDir": "packages",
     "libsDir": "packages"
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/js"
   }
 }
