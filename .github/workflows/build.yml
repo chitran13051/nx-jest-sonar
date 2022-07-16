@@ -16,7 +16,6 @@ jobs:
       - name: run test
         run: nx run-many --target=test --all --coverage
       - name: SonarCloud Scan
-        run: nx run-many --target=test --all --coverage
         uses: SonarSource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Needed to get PR information, if any
