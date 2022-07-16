@@ -11,5 +11,6 @@ export default {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
+  coverageReporters: ['json', 'lcov'],
   coverageDirectory: '../../coverage/packages/add',
 };
