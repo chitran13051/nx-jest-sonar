@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx-jest-sonar/add": ["packages/add/src/index.ts"],
-      "@nx-jest-sonar/mul": ["packages/mul/src/index.ts"]
+      "@nx-jest-sonar/mul": ["packages/mul/src/index.ts"],
+      "@nx-jest-sonar/say-hello": ["packages/say-hello/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
