@@ -17,3 +17,6 @@
 # sonar.exclusions=**/src/**/*.spec.ts
 
 # sonar.typescript.tsconfigPath=tsconfig.base.json
+
+
+#Note : Administration => General Settings instead of this configuration file.
