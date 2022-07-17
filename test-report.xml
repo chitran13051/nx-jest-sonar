@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/khanhtran/Desktop/Dev/learning/nx-jest-sonar/packages/say-hello/src/lib/say-hello.spec.ts">
+    <testCase name="sayHello should work if have a name" duration="1"/>
+    <testCase name="sayHello should say default" duration="0"/>
+  </file>
+</testExecutions>
