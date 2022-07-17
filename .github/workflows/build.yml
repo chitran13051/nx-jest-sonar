@@ -18,7 +18,7 @@ jobs:
           yarn  
           yarn nx run-many --target=test --all --coverage
       - name: Add coverage comment
-        uses: ScaCap/code-coverage-assistant@v1
+        uses: ScaCap/code-coverage-assistant
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           monorepo-base-path: '.'
