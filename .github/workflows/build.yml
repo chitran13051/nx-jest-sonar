@@ -17,11 +17,6 @@ jobs:
         run: |
           yarn  
           yarn nx run-many --target=test --all --coverage
-      - name: Add coverage comment
-        uses: ScaCap/code-coverage-assistant@v1.0.0
-        env:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          monorepo-base-path: './packages'
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
