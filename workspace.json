@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "add": "packages/add",
+    "div": "packages/div",
     "mul": "packages/mul",
     "say-good-bye": "packages/say-good-bye",
     "say-hello": "packages/say-hello"
