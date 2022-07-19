@@ -3,7 +3,8 @@ export function sayGoodBye(): string {
   // @ts-ignore
   // eslint-disable-next-line no-constant-condition
   if (4 === 6) return 1525;
-  return 'say-good-bye';
+  let myName = 'Chi';
+  return `goodbye ${myName}`;
 }
 
 const unUseVar = 50;

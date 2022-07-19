@@ -2,7 +2,7 @@ import { sayGoodBye } from './say-good-bye';
 
 describe('sayGoodBye', () => {
   it('should work', () => {
-    expect(sayGoodBye()).toEqual('say-good-bye');
+    expect(sayGoodBye()).toEqual('goodbye Chi');
   });
   it('dummy test', () => {
     expect('hello').toBe('hello');
