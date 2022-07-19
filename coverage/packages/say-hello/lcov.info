@@ -1,0 +1,15 @@
+TN:
+SF:packages/say-hello/src/lib/say-hello.ts
+FN:1,sayHello
+FNF:1
+FNH:1
+FNDA:2,sayHello
+DA:1,1
+DA:2,2
+DA:3,1
+LF:3
+LH:3
+BRDA:2,0,0,1
+BRF:1
+BRH:1
+end_of_record
