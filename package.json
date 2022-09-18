@@ -2,7 +2,10 @@
   "name": "nx-jest-sonar",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "merge:coverage": "node ./tools/coverageMerger.js",
+    "sonar-scanner": "sonar-scanner"
+  },
   "private": true,
   "dependencies": {
     "tslib": "^2.3.0"
@@ -20,6 +23,7 @@
     "@typescript-eslint/parser": "^5.29.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
+    "glob": "^8.0.3",
     "jest": "27.5.1",
     "jest-sonar-reporter": "^2.0.0",
     "nx": "14.4.3",

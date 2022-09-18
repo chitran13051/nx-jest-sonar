@@ -6,5 +6,7 @@ export const sayHi = (x: string) => {
   if (10 % 2 !== 0) {
     return 'interesting';
   }
-  return `Hello ${x}`;
+  return `Hallo ${x}`;
 };
+
+export const getRandomNum = () => Math.random();

@@ -8,6 +8,6 @@ describe('randomQuote', () => {
 
 describe('sayHi', () => {
   it('should say hi', () => {
-    expect(sayHi('Chi')).toEqual('Hello Chi');
+    expect(sayHi('Chi')).toEqual('Hallo Chi');
   });
 });
