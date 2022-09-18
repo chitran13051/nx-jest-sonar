@@ -5,6 +5,7 @@
     "add": "packages/add",
     "div": "packages/div",
     "mul": "packages/mul",
+    "random-quote": "packages/random-quote",
     "say-good-bye": "packages/say-good-bye",
     "say-hello": "packages/say-hello"
   }
