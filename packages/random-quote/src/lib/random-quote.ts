@@ -9,4 +9,4 @@ export const sayHi = (x: string) => {
   return `Hallo ${x}`;
 };
 
-export const getRandomNum = () => Math.random();
+export const getRandomNum = () => 10;
