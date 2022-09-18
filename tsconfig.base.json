@@ -15,7 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-jest-sonar/add": ["packages/add/src/index.ts"],
       "@nx-jest-sonar/div": ["packages/div/src/index.ts"],
       "@nx-jest-sonar/mul": ["packages/mul/src/index.ts"],
       "@nx-jest-sonar/random-quote": ["packages/random-quote/src/index.ts"],

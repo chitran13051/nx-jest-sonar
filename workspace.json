@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "add": "packages/add",
     "div": "packages/div",
     "mul": "packages/mul",
     "random-quote": "packages/random-quote",
